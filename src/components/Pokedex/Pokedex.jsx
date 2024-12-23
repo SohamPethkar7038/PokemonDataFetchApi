@@ -8,7 +8,6 @@ function Pokedex(){
 
     return(
         <div className="pokedex-wrapper">
-        <h1 id="pokedex-header">Pokedex</h1>
         <Search/>
         <PokemonList/>
         </div>

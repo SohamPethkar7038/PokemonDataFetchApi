@@ -1,1 +1,30 @@
+.outer-pokedex{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
 
+
+#pokedex-header{
+    margin: 0 auto;
+    letter-spacing: 5px;
+}
+
+a {
+    color: black;
+}
+a :visited{
+    color: blue;
+}
+
+.pokemon-types{
+    display: flex;
+    margin-top: 2rem;
+    gap: 3rem;
+    font-size: larger;
+}
+.pokemon-types div{
+    border:1px solid gainsboro;
+    border-radius: 1px;
+    padding: 1rem;
+}
